@@ -1,0 +1,31 @@
+
+.set IOHI, 0xFF00
+.set LCDCLO, 0x40
+.set BGPLO, 0x47
+.set OBP0LO, 0x48
+.set OBP1LO, 0x49
+
+.set LCD_ENABLE, 128
+.set WINDOW_TILEMAP, 64
+.set WINDOW_ENABLE, 32
+.set WINDOW_TILEDATA, 16
+.set BG_TILEMAP, 8
+.set OBJ_SIZE, 4
+.set OBJ_ENABLE, 2
+.set BG_PRIO, 1
+
+.set IELO, 0xFF
+.set IFLO, 0x0F
+
+.set OBJVRAMLO, 0x8000
+.set OBJVRAMHI, 0x8800
+.set BGVRAM, 0x9000
+
+.set OAM, 0xFE00
+
+.set VBLANK_IE, 	1
+.set LCD_IE, 		2
+.set TIMER_IE, 		4
+.set SERIAL_IE, 	8
+.set JOYPAD_IE, 	16
+

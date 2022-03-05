@@ -1,0 +1,6 @@
+Calling convention:
+
+* For functions besides interrupts, the arguments go in
+  HL, BC, DE, and then the stack. Return result is in HL.
+  All registers are clobbered. Caller must save any that
+  need to be kept.
